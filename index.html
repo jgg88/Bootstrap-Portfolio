@@ -21,7 +21,7 @@
 
 
 <header>
-	<h1 id="teal">Joshua Gomez</h1>
+	<h1>Joshua Gomez</h1>
       <nav>
         <a href="index.html">About</a>
         <a href="portfolio.html">Portfolio</a>
@@ -35,11 +35,17 @@ body {
 	background-repeat: repeat;
 }
 
+
 .profile {
 	width: 40%;
 	float: left;
 	margin: 10px;
 }
+
+.panel-default {
+  margin:20px;
+}
+
 
 p {
 	word-wrap: wrap;
@@ -54,6 +60,50 @@ p {
 }
 #stack {
   width: 100px;
+}
+
+.footer {
+	height: 60px;
+	width: 100%;
+	color: white;
+	background-color: blue;
+	position: absolute;
+	bottom: 0;
+	padding: 20px;
+}
+
+@media screen and (max-width: 980px){
+header {
+	width: 100%;
+}
+.panel-default {
+	width: 100%;
+}
+.footer {
+	position: static;
+}
+}
+@media screen and (max-width: 768px){
+header {
+	width: 100%;
+}
+.panel-default {
+	width: 100%;
+}
+header {
+	width: 100%;
+}
+.footer {
+	position: static;
+}
+}
+@media screen and (max-width: 640px){
+.panel-default {
+	width: 100%;
+}
+.footer {
+	position: static;
+}
 }
 </style>
 
@@ -97,7 +147,7 @@ p {
 </div>
 </div>
 
-<div class="panel-footer"><center>Copyright &copy; 2016 Joshua Gomez</center></div>
+<div class="footer"><center>Copyright &copy; 2016 Joshua Gomez</center></div>
 
 </div>
 

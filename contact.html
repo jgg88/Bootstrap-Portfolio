@@ -22,6 +22,20 @@
 body {
 	background-image: url("hexellence.png");
 	background-repeat: repeat;
+
+}
+
+.form-group {
+  margin: 50px;
+}
+button {
+  margin-left: 50px;
+}
+
+.panel-default {
+  margin:20px;
+}
+
 }
 #git {
   width: 100px;
@@ -32,8 +46,48 @@ body {
 #stack {
   width: 100px;
 }
-.panel-footer: {
+.footer {
+  height: 60px;
+  width: 100%;
+  color: white;
+  background-color: blue;
   position: absolute;
+  bottom: 0;
+  padding: 20px;
+}
+
+@media screen and (max-width: 980px){
+.navbar {
+  width: 100%;
+}
+.panel-default {
+  width: 100%;
+}
+.footer {
+  position: static;
+}
+}
+@media screen and (max-width: 768px){
+.navbar {
+  width: 100%;
+}
+.panel-default {
+  width: 100%;
+}
+.footer {
+  position: static;
+}
+}
+@media screen and (max-width: 640px){
+  .navbar {
+    width: 100%;
+  }
+.panel-default {
+  width: 100%;
+}
+.footer {
+  position: static;
+}
 }
 </style>
 <br><br><br><br><br><br>
@@ -81,7 +135,7 @@ body {
 </div>
 </div>
 
-<div class="panel-footer"><center>Copyright &copy; 2016 Joshua Gomez</center></div>
+<div class="footer"><center>Copyright &copy; 2016 Joshua Gomez</center></div>
 
 </div>
 
